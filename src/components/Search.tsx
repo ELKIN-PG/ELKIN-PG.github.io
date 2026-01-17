@@ -34,7 +34,7 @@ export default function Search({ data }: Props) {
 
   return (
     <div class="flex flex-col">
-      <SearchBar onSearchInput={onSearchInput} query={query} setQuery={setQuery} placeholderText="What are you looking for?" />
+      <SearchBar onSearchInput={onSearchInput} query={query} setQuery={setQuery} placeholderText="Ingresa tu articulo de interes chenoa" />
 
       {(query().length >= 2 && results().length >= 1) && (
         <div class="mt-12">
