@@ -6,6 +6,7 @@ import solidJs from "@astrojs/solid-js"
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-sphere-demo.vercel.app",
+  site: "https://ELKIN-PG.github.io",
+  base: 'ELKIN-PG.github.io',
   integrations: [mdx(), sitemap(), solidJs(), tailwind({ applyBaseStyles: false })],
 })
